@@ -1,0 +1,797 @@
+<style type="text/css">
+  .menu_home_li {
+    display: block;  
+  }
+
+  .menu_developer_li {
+    display: none;  
+  }
+
+  .menu_sponsor_li {
+    display: none;  
+  }
+</style>
+<div id="carousel-hack" class="carousel slide" data-ride="carousel">
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+
+    <div class="item" id="menu_developer">
+      <section id="main_developer" class="full-height white">
+
+        <a class="btn-back back-right" href="#carousel-hack" data-slide="next">
+          <span class="hicon-right hicon-med nav_arrow"></span>
+        </a>
+
+        <div class="container">
+          <div class="main_info">
+            <div>
+              <%= image_tag "static-logo.png" %>
+            </div>
+            <h1>Descubre, programa, inventa</h1>
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2">
+                <a href="/developers/sign_up" class="btn btn-lg btn-info btn-main btn-block">Aplica ahora</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 arrow text-center">
+                <span data-ref="nav_planificacion" class="hicon-fastdown hicon-med black_font nav_arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="planificacion_developer" class="planificacion azul">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title">Planificación</h1>
+          </header>
+            <h2 class="text-center">Un dia en</h2>
+            <div class="row text-center">
+              <h2 style="margin-bottom: 50px;">
+                <%= image_tag "hack.png", :class => "invert" %>
+              </h2>
+            </div>
+        </div>
+      </section>
+      <section id="planificacion" class="planificacion white">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-2 col-xs-2 col-sm-offset-5 col-xs-offset-5">
+              <div class="plan_box">
+                Desayuno
+              </div>
+              <div class="dotted_line"></div>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="time_box time_right text-right">
+                8:00 am
+                <div class="blue_dot dot_right"></div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+              <p class="blue_text plan_text">
+                El punto de encuentro es en la cocina, con un desayuno para comenzar un día productivo.<br>
+                Desayunos incluidos
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 col-xs-4 col-sm-offset-1">
+              <p class="blue_text plan_text">
+                Nuestros mentores muestran las herramientas minimas necesarias para que cada alumno pueda afrontar los desafios del día.
+              </p>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="time_box time_left text-left">
+                9:00 am
+                <div class="blue_dot dot_left"></div>
+              </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+              <div class="plan_box">
+                <div class="double_line">
+                  Mentor <br>
+                  Hack 1
+                </div>
+              </div>
+              <div class="dotted_line"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-2 col-sm-offset-5 col-xs-offset-5">
+              <div class="plan_box">
+                Retos
+              </div>
+              <div class="dotted_line"></div>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="time_box time_right text-right">
+                10:30 am
+                <div class="blue_dot dot_right"></div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+              <p class="blue_text plan_text">
+                Una vez terminada la mentoría comienzan los retos, los cuales te acreditaran logros en tu perfil de usuario.
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="blue_plan">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3 col-xs-4 col-sm-offset-1">
+              <p class="white_text plan_text">
+                Despues de varios retos, recargamos energías por 1hr para luego regresar al salón de clases.
+              </p>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="white_time_box time_left text-left">
+                1:00 pm
+                <div class="white_dot dot_left"></div>
+              </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+              <div class="white_plan_box">
+                Almuerzo
+              </div>
+              <div class="dotted_line"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 col-xs-2 col-sm-offset-5 col-xs-offset-5">
+              <div class="white_plan_box">
+                <div class="double_line">
+                  Mentor <br>
+                  Hack 2
+                </div>
+              </div>
+              <div class="dotted_line"></div>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="white_time_box time_right text-right">
+                2:00 pm
+                <div class="white_dot dot_right"></div>
+              </div>
+            </div>
+            <div class="col-sm-3 col-xs-4">
+              <p class="white_text plan_text">
+                Nuestros mentores muestran nuevas tecnologias, y hacen una preparacion para la siguiente oleada de retos.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3 col-xs-4 col-sm-offset-1">
+              <p class="white_text plan_text">
+                Esta vez son mas dificiles!! Resolver muchos de estos logros tendran sorpresas asociadas.
+              </p>
+            </div>
+            <div class="col-sm-1 col-xs-1">
+              <div class="white_time_box time_left text-left">
+                3:00 pm
+                <div class="white_dot dot_left"></div>
+              </div>
+            </div>
+            <div class="col-sm-2 col-xs-2">
+              <div class="white_plan_box">
+                Retos
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="programacion" class="full-height planificacion white">
+        <div class="container" style="padding: 5% 0 0 0;">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <header>
+                <h1 class="text-center section-title blue_text" style="padding-bottom: 0;">Programación</h1>
+              </header>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 text-center" style="padding: 0;">
+            <ul id="month_planning" class="nav nav-tabs nav-justified">
+              <li class="active">
+                <a href="#home" data-toggle="tab">
+                  <%= image_tag "month.png", :class => "month_active" %>
+                  <%= image_tag "black-hexagon.png", :class => "month_unactive" %>
+                  <div class="month_title">
+                    Mes 1
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#profile" data-toggle="tab">
+                  <%= image_tag "month.png", :class => "month_active" %>
+                  <%= image_tag "black-hexagon.png", :class => "month_unactive" %>
+                  <div class="month_title">
+                    Mes 2
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#messages" data-toggle="tab">
+                  <%= image_tag "month.png", :class => "month_active" %>
+                  <%= image_tag "black-hexagon.png", :class => "month_unactive" %>
+                  <div class="month_title">
+                    Mes 3
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#settings" data-toggle="tab">
+                  <%= image_tag "month.png", :class => "month_active" %>
+                  <%= image_tag "black-hexagon.png", :class => "month_unactive" %>
+                  <div class="month_title">
+                    Mes 4
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div id="month_content" class="tab-content">
+              <div class="tab-pane active" id="home">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 1</div>
+                      <h4 class="white_text">Aprendiendo a aprender</h4> 
+                      <h5 class="white_text">Introduccion a {Hack} + HTML + CSS</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 2</div>
+                      <h4>No me hagas pensar!</h4> 
+                      <h5>Como trabajar? + UI/UX + Frameworks CSS</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 3</div>
+                      <h4>Flujo y control</h4> 
+                      <h5>Algoritmos + Inicio Javascript</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 4</div>
+                      <h4>Crear Internet</h4> 
+                      <h5>Principios de administración de sistemas</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="profile">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 5</div>
+                      <h4 class="white_text">Paginas web vs Sistemas web</h4> 
+                      <h5 class="white_text">Introduccion al backend + SQL</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 6</div>
+                      <h4>Hola Mundo</h4> 
+                      <h5>Programacion Orientada a Objetos + TDD + Ruby</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 7</div>
+                      <h4>Frameworks (Desde el server)</h4> 
+                      <h5>Organizando un sistema: Donde van las cosas? + Rails</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 8</div>
+                      <h4>No te repitas!</h4> 
+                      <h5>Reutilizar codigo + librerias + Servicios Web: SOAP/REST</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="messages">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 9</div>
+                      <h4 class="white_text">Frameworks (Desde el cliente)</h4> 
+                      <h5 class="white_text">DOM + JQuery + Angular</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 10</div>
+                      <h4>Refactor + Testing</h4> 
+                      <h5>Pruebas + Refactor + CodeReview</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 11</div>
+                      <h4>Jedi Week!</h4> 
+                      <h5>Codewars + Free for all!!!</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 12</div>
+                      <h4>FINAL HACK</h4> 
+                      <h5>Proyecto Final + Mentoria a la siguiente promo</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="settings">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-9 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 13-15</div>
+                      <h4>FINAL HACK</h4> 
+                      <h5>Proyecto Final + Mentoria a la siguiente promo</h5>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                      <div class="pill col-sm-4 col-sm-offset-4 white_pill text-center">Semana 16</div>
+                      <h4>Speed Dating</h4> 
+                      <h5>Desarrolladores + Emprendedores/Empresas</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section id="precio" class="full-height planificacion white">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title titulo-seccion">Precio</h1>
+          </header>
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-2">
+              <div class="white_box_o">
+                <div class="row">
+                  <div class="titulo-lugar col-sm-12 text-center">
+                    Caracas - Macaracuay
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 precio text-center">
+                    32.100 Bs.
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 fechas_o blue_text">
+                    <!-- 10 Marzo 2014 - 27 Junio 2014 -->
+                    Aun se aceptan aplicaciones.
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 fechas_o blue_text">
+                    Lun a Vie desde las 8am.
+                  </div>
+                </div>
+                <div class="row aplica">
+                  <div class="col-sm-12">
+                    <a href="/developers/new" class="btn btn-block btn-info btn-lg btn-apply">Aplica ahora</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="blue-box">
+                <div class="row text-center">
+                  <div class="col-sm-12 text-center">
+                    <h3>Preinscripción - 2.000 Bs.</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-center aclaratoria">
+                    Pagado luego de ser admitido en {Hack}.
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-sm-12">
+                    <h3>Inscripción - 10.000 Bs. </h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-center aclaratoria">
+                    Pagado una semana antes de comenzar clases.
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-sm-12">
+                    <h3>Mensualidad - 3.350 Bs.</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-center aclaratoria">
+                    Pagado al inicio de cada mes por <b>6 MESES</b>.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 aclaratoria text-center">
+              <div class="titulo-beca">¿Quieres ser un {Hacker} pero no puedes pagarlo?</div>
+            </div>
+            <div class="col-sm-12 text-center">
+              <div class="texto-beca"><b>Aplica</b> y puedes optar por el programa de becas de nuestros sponsors.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="item active" id="menu_home">
+      <section id="home" class="full-height bienvenido">
+
+        <div class="container">
+          <div class="main_info">
+            <div>
+              <!-- <img src="images/static-logo.png"> -->
+              <%= image_tag "static-logo.png" %>
+            </div>
+            <div>
+              <%= image_tag "hack.png" %>
+            </div>
+            <h1 class="slogan">Academia de formación intensiva de programadores</h1>
+            <div class="row">
+              <div class="col-sm-4 col-sm-offset-2">
+                <a class="btn btn-lg btn-primary btn-main btn-block" href="#carousel-hack" data-slide="prev">
+                  Sé un developer
+                </a>
+                <!-- <a href="/want_to_be_developer.html" class="btn btn-lg btn-primary btn-main btn-block">Sé un developer</a> -->
+              </div>
+              <div class="col-sm-4">
+                <a class="btn btn-lg btn-info btn-main btn-block" href="#carousel-hack" data-slide="next">
+                  Patrocina un developer
+                </a>
+                <!-- <a href="/want_to_be_sponsor.html" class="btn btn-lg btn-info btn-main btn-block">Patrocina un developer</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 arrow text-center">
+              <span data-ref="nav_caracteristicas" class="hicon-fastdown hicon-med white_font nav_arrow"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="que_es" class="full-height white" >
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title">¿Qué es Hack?</h1>
+          </header>
+          <article class="row section-module">
+            <div class="col-sm-3 section-image text-center">
+              <span class="hicon-uniF741 hicon-big"></span>
+            </div>
+            <div class="col-sm-6 section-description text-center section-description-left">
+              <h2 class="section-module-title">Experiencia general</h2>
+              <p>
+                {Hack} es más que un curso intensivo, es una experiencia completa: Un <b>campus</b> donde la dedicación, la innovación y la creatividad se unen para generar autodidactas.
+              </p>
+            </div>
+          </article>
+          <article class="row section-module">
+            <div class="col-sm-3 section-image text-center section-image-right">
+              <span class="hicon-uniF67B hicon-big"></span>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3 section-description  text-center section-description-right">
+              <h2 class="section-module-title">4 meses intensivos</h2>
+              <p>
+                Mientras las universidades y los institutos toman de 3 a 5 años en formar profesionales, {Hack} tiene un enfoque práctico y orientado a retos, formación directo al grano.
+              </p>
+            </div>
+          </article>
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <a href="/want_to_be_developer.html" class="btn btn-block btn-primary btn-lg">Sé un developer</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="como_funciona" class="full-height azul">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title">¿Cómo funciona?</h1>
+          </header>
+          <article class="row section-module">
+            <div class="col-sm-3 section-image text-center">
+              <span class="hicon-uniF79C hicon-big"></span>
+            </div>
+            <div class="col-sm-6 section-description text-center section-description-left">
+              <h2 class="section-module-title">Método Gamificado</h2>
+              <p>
+                En {Hack} cada participante tendrá un árbol de talentos, niveles y badges en el que cada hacker se especializa en lo que más le gusta desarrollar.
+              </p>
+            </div>
+          </article>
+          <article class="row section-module">
+            <div class="col-sm-3 section-image text-center section-image-right">
+              <span class="hicon-uniF6E1 hicon-big"></span>
+            </div>
+            <div class="col-sm-6 col-sm-offset-3 section-description  text-center section-description-right">
+              <h2 class="section-module-title">Preparación Global</h2>
+              <p>
+                La formación en {Hack} está basada en retos para enseñar a programar sin dedicarse a una tecnología específica, un {Hacker} puede aprender tecnologías nuevas fácilmente.
+              </p>
+            </div>
+          </article>
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <a href="/want_to_be_developer.html" class="btn btn-block btn-info btn-lg">Sé un developer</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="speed_dating" class="full-height black">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title">Speed Dating</h1>
+          </header>
+          <div class="text-center hicon-uniF65C hicon-big"></div>
+          <article class="row section-module">
+            <div class="col-sm-6 col-sm-offset-3 text-center section-description">
+              <p>
+                En muchas compañias y emprendimientos hay necesidad de programadores, en {Hack} unimos a los desarrolladores con las oportunidades.
+              </p>
+            </div>
+          </article>
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <a href="/want_to_be_developer.html" class="btn btn-block btn-primary btn-lg">Sé un developer</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="campus" class="full-height azul">
+        <div class="container" style="padding: 3% 0;">
+          <header>
+            <h1 class="text-center section-title">Campus</h1>
+          </header>
+
+          <div class="row">
+            <div class="col-sm-6" style="padding: 0;">
+              <div id="carousel-campus" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-campus" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-campus" data-slide-to="1"></li>
+                  <li data-target="#carousel-campus" data-slide-to="2"></li>
+                  <li data-target="#carousel-campus" data-slide-to="3"></li>
+                  <li data-target="#carousel-campus" data-slide-to="4"></li>
+                  <li data-target="#carousel-campus" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <%= image_tag "campus-1.jpg" %>
+                  </div>
+                  <div class="item">
+                    <%= image_tag "campus-2.jpg" %>
+                  </div>
+                  <div class="item">
+                    <%= image_tag "campus-3.jpg" %>
+                  </div>
+                  <div class="item">
+                    <%= image_tag "campus-4.jpg" %>
+                  </div>
+                  <div class="item">
+                    <%= image_tag "campus-6.jpg" %>
+                  </div>
+                  <div class="item">
+                    <%= image_tag "campus-7.jpg" %>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-campus" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-campus" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6" style="padding: 0;">
+              <div class="white-container">
+                <div class="white-arrow-left"></div>
+                <div id="map_canvas" class="col-sm-12">
+                  <div ></div> 
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <article class="row section-module">
+                      <div class="col-sm-12 text-center section-description">
+                        <h4 class="text-center blue_text">Calle Sta Luisa, Macaracuay, Caracas, Venezuela</h4>
+                        <p class="blue_text">
+                          Si tienes alguna duda puedes escribirnos a <a href="mailto:rramos@4geeks.co">contacto@hack.4geeks.co</a>
+                        </p>
+                        <div class="text-center"><strong>+58.212.257.52.80</strong></div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+              <p>
+                {Hack} es un campus ubicado en ThePool el cual cuenta, con areas verdes, estacionamiento y seguridad las 24hrs. Es un proyecto que surge entre la alianza ThePool- 4Geeks, como iniciativa de una serie de programas educativos.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <div class="item" id="menu_sponsor">
+      <section id="main_sponsor" class="full-height white">
+
+        <a class="btn-back back-left" href="#carousel-hack" data-slide="prev">
+          <span class="hicon-left hicon-med nav_arrow"></span>
+        </a>
+
+        <div class="container">
+          <div class="main_info">
+            <div>
+              <%= image_tag "hack.png" %>
+            </div>
+            <h1>Experiencia certificada</h1>
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 section-description">
+                <p>
+                  Las referencias laborales pueden decir verdades a medias... gracias a nuestro proceso de seleccion incial y entrenamiento intensivo podemos obtener lo mejor de nuestros participantes. Un {Hacker} esta listo para el reto.
+                </p> 
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <a href="#" class="btn btn-lg btn-primary btn-main btn-block">Invierte ahora</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 arrow text-center">
+              <span data-ref="nav_comofunciona_sponsor" class="hicon-fastdown hicon-med black_font nav_arrow"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="planificacion_sponsor" class="full-height azul">
+        <div class="container" style="padding-bottom: 0;">
+          <header>
+            <h1 class="text-center section-title">¿Cómo funciona?</h1>
+          </header>
+        </div>
+
+        <div id="pasos_carousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+              <li data-target="#pasos_carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#pasos_carousel" data-slide-to="1"></li>
+              <li data-target="#pasos_carousel" data-slide-to="2"></li>
+            </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="row">
+                <div class="col-xs-8 col-sm-6 col-sm-offset-2">
+                  <h2 class="pasos-text text-center">
+                    {Hack} ¡realiza la convocatoria a miles de aspirantes que desean convertirse en los mejores desarrolladores!
+                  </h2>
+                </div>
+                <div class="col-xs-4 col-sm-4" style="padding: 0;">
+                  <div class="numbers-responsive"></div>
+                  <div class="pasos-numbers number-right">
+                    1
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-8 col-sm-6 col-sm-offset-2">
+                  <h2 class="pasos-text text-center">
+                    {Hack} entrevista a quienes aspiran por una beca y bajo un proceso de selección determina los mejores perfiles candidatos.
+                  </h2>
+                </div>
+                <div class="col-xs-4 col-sm-4" style="padding: 0;">
+                  <div class="numbers-responsive"></div>
+                  <div class="pasos-numbers number-right" data-target="#pasos_carousel" data-slide-to="1">
+                    2
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-8 col-sm-6 col-sm-offset-2">
+                  <h2 class="pasos-text text-center">
+                    El sponsor conoce a los alumnos seleccionados y mediante una dinámica de compatibilidad Developer/Sponsor se determinan los alumnos de cada sponsor.
+                  </h2>
+                </div>
+                <div class=" col-xs-4 col-sm-4" style="padding: 0;">
+                  <div class="numbers-responsive"></div>
+                  <div class="pasos-numbers number-right" data-target="#pasos_carousel" data-slide-to="2">
+                    3
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section id="inversion" class="full-height white">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title titulo-invierte blue_text">Inversión</h1>
+          </header>
+          <!-- <div class="row">
+            <div class="col-sm-12">
+              <h4>Un buen desarrollador es un artista que disfruta el proceso de creacion, tiene pasion por lo que hace y valora la calidad del producto finalizado. Nuestra filosofia es formar buenos desarrolladores que les apasiona su trabajo.</h4>
+            </div>
+          </div> -->
+          <div class="row titulo-invierte">
+            <div class="col-sm-12">
+              <h4 class="blue_text">Ni un empleado más! Invierte en {Hack} y obtendrás desarrolladores comprometidos con su labor. Si crees que tu startup o compañía puede <b>enamorar</b> a un desarrollador tendrás más que un empleado, tendrás un {Hacker} comprometido en tu proyecto.</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-4 white_box_o">
+              <div class="row">
+                <div class="titulo-lugar col-sm-12 text-center">
+                  Caracas - Macaracuay
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 precio text-center">
+                  32.100 Bs.
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 fechas_o blue_text">
+                  <!-- 10 Marzo 2014 - 27 Junio 2014 -->
+                  Aún se aceptan aplicaciones.
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 fechas_o blue_text">
+                  Lun a Vie desde las 8am.
+                </div>
+              </div>
+              <div class="row aplica">
+                <div class="col-sm-12">
+                  <a href="#" class="btn btn-block btn-info btn-lg btn-apply">Invierte ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="detalle" class="full-height anaranjado">
+        <div class="container">
+          <header>
+            <h1 class="text-center section-title">Más información</h1>
+          </header>
+          <div class="row">
+            <div class="col-sm-10">
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </div>
+
+  </div>
+
+</div>

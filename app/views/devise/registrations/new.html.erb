@@ -1,0 +1,9 @@
+<%=
+	params[:user][:profileable_type] ||= 'Developer'
+	if ["developer", "sponsor"].include? params[:user][:profileable_type].downcase
+		render :partial => "new_#{params[:user][:profileable_type].downcase}"
+	else
+		render :partial => "new_developer"
+	end
+	
+%>

@@ -1,0 +1,49 @@
+<%= form_for(@developer) do |f| %>
+  <% if @developer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@developer.errors.count, "error") %> prohibited this developer from being saved:</h2>
+
+      <ul>
+      <% @developer.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :last_name %><br>
+    <%= f.text_field :last_name %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :phone %><br>
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field">
+    <%= f.label :address %><br>
+    <%= f.text_area :address %>
+  </div>
+  <div class="field">
+    <%= f.label :why_hack %><br>
+    <%= f.text_area :why_hack %>
+  </div>
+  <div class="field">
+    <%= f.label :scholarship %><br>
+    <%= f.check_box :scholarship %>
+  </div>
+  <div class="field">
+    <%= f.label :why_scholarship %><br>
+    <%= f.text_area :why_scholarship %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @promo.name %>
+</p>
+
+<p>
+  <strong>Lapse:</strong>
+  <%= @promo.lapse %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @promo.year %>
+</p>
+
+<%= link_to 'Edit', edit_promo_path(@promo) %> |
+<%= link_to 'Back', promos_path %>

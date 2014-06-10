@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Ordenado
+  icon_url:
+  icon_type: 1
+
+two:
+  name: Balanceado
+  icon_url: 
+  icon_type: 1 

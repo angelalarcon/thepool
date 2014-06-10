@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2 col-sm-offset-5 text-center">
+      <h5>Preview</h5>
+      <div class="well personal-detail text-center">
+        <% if @behavior.icon_type == 1 %>
+          <span class="<%= @behavior.icon_code%> hicon-big"></span>
+        <% elsif @behavior.icon_type == 2 %>
+          <img src="<%= @behavior.icon_url%>">
+        <% end %>
+        <p class="text-center"><%= @behavior.name %></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row developer-info">
+    <div class="col-sm-8 col-sm-offset-2">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="title-show text-center">Nombre</div>
+            <h4><%= @behavior.name %></h4>
+          </div>
+          <div class="col-sm-6">
+            <div class="title-show text-center">URL del icono</div>
+            <h4 class="text-right"><%= @behavior.icon_url %></h4>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="title-show text-center">Codigo del icono</div>
+            <h4><%= @behavior.icon_code %></h4>
+          </div>
+          <div class="col-sm-6">
+            <div class="title-show text-center">Tipo</div>
+            <h4 class="text-right"><%= @behavior.icon_type %></h4>
+          </div>
+        </div>
+    </div>
+  </div>
+  <%= link_to 'Atras', behaviors_path %>
+</div>

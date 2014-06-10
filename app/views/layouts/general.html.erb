@@ -70,7 +70,7 @@
               <div class="row">
                 <div class="col-xs-6 col-sm-12 text-center">
                   <a href="../" class="logo">
-                    <%= image_tag "hack.png" %>
+                    <%= image_tag "logo.png" %>
                   </a>
                 </div>
               </div>
@@ -80,7 +80,7 @@
               <ul id="cat_ul" class="nav navbar-nav">
                 
                 <li>
-                  <a class="nav_main active" data-offsettop="60" href="#main" id="nav#main">Inicio</a>
+                  <a class="nav_main active" data-offsettop="60" href="#main" id="nav#main">NOSOTROS</a>
 
                   <div class="caret_header">
                     <span></span>
@@ -88,7 +88,7 @@
 
                 </li>
                 <li>
-                  <a class="nav_caracteristicas" data-offsettop="60" href="#caracteristicas" id="nav#caracteristicas">¿Qué es hack?</a>
+                  <a class="nav_caracteristicas" data-offsettop="60" href="#caracteristicas" id="nav#caracteristicas">MENTORES</a>
 
                   <div class="caret_header">
                     <span></span>
@@ -96,7 +96,7 @@
 
                 </li>
                 <li>
-                  <a class="nav_comofunciona" data-offsettop="60" href="#comofunciona" id="nav#comofunciona">¿Cómo funciona?</a>
+                  <a class="nav_comofunciona" data-offsettop="60" href="#comofunciona" id="nav#comofunciona">¿Qué es The Pool?</a>
 
                   <div class="caret_header">
                     <span></span>
@@ -104,15 +104,7 @@
 
                 </li>
                 <li>
-                  <a class="nav_speed_dating" data-offsettop="60" href="#speed_dating" id="nav#speed_dating">Speed dating</a>
-
-                  <div class="caret_header">
-                    <span></span>
-                  </div>
-
-                </li>
-                <li>
-                  <a class="nav_campus" data-offsettop="60" href="#campus" id="nav#campus">Campus</a>
+                  <a class="nav_speed_dating" data-offsettop="60" href="#speed_dating" id="nav#speed_dating">¿Qué ofrece The Pool?</a>
 
                   <div class="caret_header">
                     <span></span>
@@ -135,21 +127,23 @@
         <section id="main" class="full-height bienvenido">
           <div class="container">
             <div class="main_info">
-              <div>
-                <!-- <img src="images/static-logo.png"> -->
-                <%= image_tag "static-logo.png" %>
-              </div>
-              <div>
-                <%= image_tag "hack.png" %>
-              </div>
-              <h1 class="slogan">Academia de formación intensiva de programadores</h1>
+              <p>
+                <div>
+                  <%= image_tag "ceramic.png" %>
+                </div>
+              </p>
+              <p>
+                <div class="slogan">
+                  <h1>CLUB DE EMPRENDEDORES</h1>
+                  <h2>Where Talent Meets Growth</h2>
+                </div>
+              </p>
 
               <div class="row">
-                <div class="col-sm-4 col-sm-offset-2 col-xs-8 col-xs-offset-2">
-                  <a href="/want_to_be_developer.html" class="btn btn-lg btn-primary btn-main btn-block">Sé un developer</a>
-                </div>
-                <div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0">
-                  <a href="/want_to_be_sponsor.html" class="btn btn-lg btn-info btn-main btn-block">Patrocina un developer</a>
+                <div class="col-sm-4 col-sm-offset-4">
+                  <a href="#" class="btn btn-white btn-block btn-large btn-flat">
+                    Conoce nuestros mentores
+                  </a>
                 </div>
               </div>
               
@@ -162,54 +156,299 @@
           </div>
         </section>
 
-        <section id="caracteristicas" class="full-height white" >
+        <section id="caracteristicas" class="full-height gray" >
           <div class="container">
             <header>
-              <h1 class="text-center section-title">¿Qué es Hack?</h1>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 section-title">
+                  <h1 class="text-center">Mentores</h1>
+                </div>
+              </div>
             </header>
-            <article class="row section-module">
-              <div class="col-xs-12 col-sm-3 section-image text-center">
-                <span class="hicon-uniF741 hicon-big"></span>
-              </div>
-              <div class="col-xs-12 col-sm-6 section-description text-center section-description-left">
-                <h2 class="section-module-title">Experiencia general</h2>
-                <p>
-                  {Hack} es más que un curso intensivo, es una experiencia completa: Un <b>campus</b> donde la dedicación, la innovación y la creatividad se unen para generar autodidactas.
-                </p>
-              </div>
-            </article>
-            <article class="row section-module">
-              <div class="col-xs-12 col-sm-3 section-image text-center section-image-right">
-                <span class="hicon-uniF67B hicon-big"></span>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-sm-offset-3 section-description  text-center section-description-right">
-                <h2 class="section-module-title">4 meses intensivos</h2>
-                <p>
-                  Mientras las universidades y los institutos toman de 3 a 5 años en formar profesionales, {Hack} tiene un enfoque práctico y orientado a retos, formación directo al grano.
-                </p>
-              </div>
-            </article>
+
             <div class="row">
-              <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-                <a href="/want_to_be_developer.html" class="btn btn-block btn-primary btn-lg">Sé un developer</a>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-1.png" %>
+                </div>
+                <h3>LUIS X BARRIOS</h3>
+                <p>
+                  Director general The Pool
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-2.png" %>
+                </div>
+                <h3>PABLO SLOUGH</h3>
+                <p>
+                  Director de Google México
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-3.png" %>
+                </div>
+                <h3>FERNANDO FABRÉ</h3>
+                <p>
+                  Presidente Endeavor Global
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-4.png" %>
+                </div>
+                <h3>HEBERTO MOLINA</h3>
+                <p>
+                  Booz & Co.
+                </p>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-5.png" %>
+                </div>
+                <h3>PILAR AGUILAR</h3>
+                <p>
+                  Directora General Endeavor México
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-6.png" %>
+                </div>
+                <h3>JUAN SALDIVAR</h3>
+                <p>
+                  Fundador y CEO de SWStrategists
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-7.png" %>
+                </div>
+                <h3>LUIS EDUARDO BARRIOS</h3>
+                <p>
+                  Fundador y CEO de Hoteles City Express
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-8.png" %>
+                </div>
+                <h3>ÁLVARO RODRÍGUEZ</h3>
+                <p>
+                  Co-Fundador y CEO de IGNIA
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-9.png" %>
+                </div>
+                <h3>PATRICIO VILLALOBOS</h3>
+                <p>
+                  Co-Fundador Underdog
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-10.png" %>
+                </div>
+                <h3>ISAAC LEKACH</h3>
+                <p>
+                  Director de Accelerator Program para Entrepreneurs Organization
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-11.png" %>
+                </div>
+                <h3>CARLOS GÓMEZ</h3>
+                <p>
+                  Presidente  de Cascada Ventures y del Consejo Endeavor México
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-12.png" %>
+                </div>
+                <h3>KARLA BERMAN</h3>
+                <p>
+                  Products & Solutions Google
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-13.png" %>
+                </div>
+                <h3>JOY R. SEN</h3>
+                <p>
+                  Xynertia
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-14.png" %>
+                </div>
+                <h3>RODRIGO MAYO</h3>
+                <p>
+                  Bain & Company
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-15.png" %>
+                </div>
+                <h3>LEONARDO GÓMEZ</h3>
+                <p>
+                  Fundador de Agencia Roja y Brutal Content
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-16.png" %>
+                </div>
+                <h3>KAREN GILCHRIST</h3>
+                <p>
+                  Country Manager Lenddo.mx
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-17.png" %>
+                </div>
+                <h3>ARGEL BECERRA</h3>
+                <p>
+                  Executive Director Global Corporate Banking JP Morgan
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-18.png" %>
+                </div>
+                <h3>MIGUEL RAMÍREZ LOMBANA</h3>
+                <p>
+                  Co-Fundador de Underdog
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-19.png" %>
+                </div>
+                <h3>FERNANDO DE HARO</h3>
+                <p>
+                  Fundador BAG
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-20.png" %>
+                </div>
+                <h3>MARÍA TERESA GERARD</h3>
+                <p>
+                  Líder en agencia de medios digitales SWStrategists
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-21.png" %>
+                </div>
+                <h3>ANDRÉS MIJARES</h3>
+                <p>
+                  Director de Innovación en Banamex
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-22.png" %>
+                </div>
+                <h3>JUAN IGNACIO LECUMBERRI</h3>
+                <p>
+                  Director General Grupo Daytona
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-23.png" %>
+                </div>
+                <h3>MARIANA CARMELO</h3>
+                <p>
+                  Fundadora BTL Vértigo
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-24.png" %>
+                </div>
+                <h3>RODRIGO S. GONZÁLEZ</h3>
+                <p>
+                  Fundador y CEO de DaVinci Group
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-25.png" %>
+                </div>
+                <h3>ALEJANDRO DIEZ BARROSO</h3>
+                <p>
+                  Fundador DILA Capital
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-26.png" %>
+                </div>
+                <h3>FERNANDO MENDIVIL</h3>
+                <p>
+                  Co-Fundador Amplemind
+                </p>
+              </div>
+              <div class="col-sm-3 text-center">
+                <div class="mentor">
+                  <%= image_tag "mentor-27.png" %>
+                </div>
+                <h3>JOSÉ  ACHAR HARARI</h3>
+                <p>
+                  CEO Grupo Dapinti
+                </p>
+              </div>
+            </div>
+
           </div>
         </section>
 
-        <section id="comofunciona" class="full-height azul">
+        <section id="comofunciona" class="full-height white">
           <div class="container">
             <header>
-              <h1 class="text-center section-title">¿Cómo funciona?</h1>
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 section-title">
+                  <h1 class="text-center">¿Qué es The Pool?</h1>
+                </div>  
+              </div>
             </header>
             <article class="row section-module">
               <div class="col-xs-12 col-sm-3 section-image text-center">
                 <span class="hicon-uniF79C hicon-big"></span>
               </div>
               <div class="col-xs-12 col-sm-6 section-description text-center section-description-left">
-                <h2 class="section-module-title">Método Gamificado</h2>
-                <p>
-                  En {Hack} cada participante tendrá un árbol de talentos, niveles y badges en el que cada hacker se especializa en lo que más le gusta desarrollar.
+                <p class="large-text">
+                  Es un club para los emprendedores. Nuestro objetico común es desarrollar y hacer crecer nuevas empresas que mejoran la vida. Nuestros miembros son un equiipo que inspira, comparte y aprende de las experiencias de los demás.
                 </p>
               </div>
             </article>
@@ -217,25 +456,18 @@
               <div class="col-xs-12 col-sm-3 section-image text-center section-image-right">
                 <span class="hicon-uniF6E1 hicon-big"></span>
               </div>
-              <div class="col-xs-12 col-sm-6 col-sm-offset-3 section-description  text-center section-description-right">
-                <h2 class="section-module-title">Preparación Global</h2>
-                <p>
-                  La formación en {Hack} está basada en retos para enseñar a programar sin dedicarse a una tecnología específica, un {Hacker} puede aprender tecnologías nuevas fácilmente.
-                </p>
-              </div>
             </article>
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-                <a href="/want_to_be_developer.html" class="btn btn-block btn-info btn-lg">Sé un developer</a>
-              </div>
-            </div>
           </div>
         </section>
 
         <section id="speed_dating" class="full-height black">
           <div class="container">
             <header>
-              <h1 class="text-center section-title">Speed Dating</h1>
+              <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 section-title">
+                  <h1 class="text-center">¿Qué ofrece The Pool?</h1>
+                </div>
+              </div>
             </header>
             <div class="text-center hicon-uniF65C hicon-big"></div>
             <article class="row section-module">

@@ -2007,6 +2007,10 @@ body {
     background: transparent;
 }
 
+#thepool-carousel .carousel-indicators {
+    bottom: 100px;
+}
+
 #thepool-carousel .carousel-indicators li {
     border: 1px solid #2a3994;
     background-color: #fff;
@@ -2079,6 +2083,11 @@ footer a:hover {
     #categorias ul li {
         width: 220px;
     }
+}
+
+.dosis-text {
+    font-family: 'Dosis';
+    font-size: 20px;
 }
 
 /*FIN DE THE POOL CSS*/

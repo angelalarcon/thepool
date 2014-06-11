@@ -1,1 +1,0 @@
-ssh romerramos@vm-0.romerramos.koding.kd.io 'cd /home/romerramos/proyectos/hack && git pull'

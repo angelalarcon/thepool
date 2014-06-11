@@ -79,7 +79,7 @@ $(document).ready(function() {
     }  
   }
 
-  for (var i = li_items; i < 5; i++) { 
+  for (var i = li_items; i < 4; i++) { 
     $('#cat_ul').append("<li><a href='#'></a><div class='caret_header'><span></span></div></li>");  
     console.log('insertando 1+'); 
   }

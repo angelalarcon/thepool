@@ -2067,12 +2067,6 @@ footer a:hover {
     white-space: nowrap;
 }
 
-@media (min-width: 1300px) {
-    #caracteristicas {
-        min-height: 1700px;
-    }
-}
-
 .large-text {
     font-size: 30px;
     text-align: center;
@@ -2088,6 +2082,95 @@ footer a:hover {
 .dosis-text {
     font-family: 'Dosis';
     font-size: 20px;
+}
+
+.slogan-info {
+    padding-top: 70px;
+    background-color: #5169FA;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.slogan-info h1 {
+   font-family: 'Dosis';
+   letter-spacing: 5px;
+   color: #fff;
+}
+
+.navbar-nav >li >a {
+    font-size: 20px;
+}
+
+.full-height.bienvenido {
+    background-image: url(../img/nadadora.png)
+}
+
+.main_info {
+   margin-top: 50px; 
+}
+
+.slogan {
+    background-color: rgba(19, 5, 184, 0.5);
+}
+
+.event {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.event .col-sm-6 {
+    position: relative;
+    min-height: 280px;
+}
+
+.event .bottom-placement {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    padding: 0 10px;
+}
+
+.event-info {
+    background-color: #19a8e0;
+    color: #fff;
+}
+
+.event-info h3 {
+    color: #fff;
+}
+
+.left-arrow {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #19a8e0;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+
+.event-img {
+    padding: 10px 0;
+    min-height: 260px;
+    background-color: #fff;
+}
+
+.section_title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 3px solid #353535;
+    padding-bottom: 10px;
+}
+
+.full-height {
+    min-height: 700px;
+}
+
+.light-blue .section_title {
+    border-bottom: 3px solid #fff;
 }
 
 /*FIN DE THE POOL CSS*/
